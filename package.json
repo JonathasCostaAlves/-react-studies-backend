@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend utilizando o json server para estudo sobre desenvolvimento com React",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "keywords": [
+    "DB",
+    "banco de Dados",
+    "React"
+  ],
+  "author": "Jonathas Costa",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
